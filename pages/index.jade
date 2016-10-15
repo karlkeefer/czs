@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title crazysauce
+    link(rel='shortcut icon' href='/img/czs-on-dark.png')
+    link(rel='stylesheet', href='/css/main.css')
+    script(type="text/javascript", src="/js/ga.js")
+  body
+    img.header(alt='Crazysauce Logo' src='/img/czs.png')
+
+    mixin vid(code, size)
+      .vid(class=size)
+        .wrapper: iframe(src="https://www.youtube.com/embed/#{code}" frameborder="0" allowfullscreen)
+
+    +vid('NmhkoX8Jf8s', 'huge')
+    +vid('UGbhk1kQkNw')
+    +vid('D2pnlqAyq-4')
+    +vid('IzcfnAjuPOU')
+    +vid('CQh-cO7Ax4c')
+    +vid('EdYNWJMJ9Vs')
+    +vid('nzrFLQzHx2w')
+
+    p 
+      a(href="http://www.youtube.com/subscription_center?add_user=crazysauce") Subscribe on YouTube
+      | &nbsp;- 
+      a(href="mailto:info@crazysauce.com") info@crazysauce.com
+
+    if (livereload())
+      script(src="http://localhost:35729/livereload.js")
