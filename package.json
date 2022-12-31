@@ -5,7 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "bower": "1.8.8",
-    "grunt": "~0.4.1",
+    "grunt": "~1.5.3",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-less": "~0.11.0",
     "grunt-newer": "~0.7.0",
