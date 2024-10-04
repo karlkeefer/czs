@@ -10,6 +10,9 @@ cd output && python -m SimpleHTTPServer
 ```
 
 ### Deployment
+
+This is on github pages, so just build and commit the outputs.
+
 ```bash
-grunt build && rsync -av --delete ./output/* booyah:/home/karlkeefer/public/crazysauce.com/public/
+grunt build
 ```
