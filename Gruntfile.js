@@ -18,7 +18,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: "pages",
           src: ["**/*.jade"],
-          dest: "output",
+          dest: "docs",
           ext: ".html"
         }]
       }
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
       },
       layouts: {
         files: {
-          'output/css/main.css': [
+          'docs/css/main.css': [
             'less/main.less'
           ]
         }

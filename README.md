@@ -5,7 +5,7 @@ Site generator for crazysauce.com
 ```bash
 npm install -g grunt && npm install && grunt watch
 # in another terminal
-cd output && python -m SimpleHTTPServer
+cd docs && python -m SimpleHTTPServer
 # visit http://localhost:8000/ in your browser
 ```
 
